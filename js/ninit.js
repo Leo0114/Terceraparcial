@@ -1,23 +1,20 @@
 (function($){
   $(function(){
-
+    $('.parallax').parallax();
     $('.sidenav').sidenav();
     $('.materialboxed').materialbox();
 
   });
 })(jQuery); 
 
-$(document).ready(function(){
-  $('.fixed-action-btn').floatingActionButton();
-});
+ 
 
 $(document).ready(function () {
     $('.slider').slider({
-      indicators: true
+      indicators: false
     });
   });
 
   $(document).ready(function(){
     $('.scrollspy').scrollSpy();
-    $('.parallax').parallax();
   });
