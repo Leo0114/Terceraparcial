@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: whitesmoke !important;
+  }
+  .sidenav-overlay{
+    z-index: 10 !important;
+  }
+  nav{
+    z-index: 90 !important;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.vcolor{
+    background-color: #1d1d1d !important;
+}
+.vcolor2{
+  background-color: #212121    !important ;
+}
+.actived{
+  background-color:  whitesmoke !important;
+  color: #1d1d1d !important;
+}
+.trs{
+    height: 510px !important;
+}
+
+.adc-fa:hover {
+    background-color: #1e61e6 !important;
+  }
+  
+  .adc-tw:hover {
+    background-color: #25d366 !important;
+  }
+
+  
+  .adc-in:hover {
+    background-color: #c32aa3 !important;
+  }
+  
+  .cardo{
+    border-radius: 25px !important;
+ 
+  }
+  .tt{
+   width: 50% !important;
+  }
+  .gr {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+  }
+  
+  .bttxto:hover{
+    background-color: whitesmoke !important;
+    color: #1d1d1d !important;
+    font-weight: bold !important;
+  }
+  .bttn{
+    background-color: #c56b24 !important;
+  }
+  a,p,h5,h3,span{
+    font-family: 'Roboto', sans-serif !important;
+  }
+
+  .parallax-container {
+    min-height: 550px !important;
+    line-height: 0 !important;
+    height: auto !important;
+    color: rgba(255, 255, 255, .9) !important;
+  }
+  
+  .parallax-container .section {
+    width: 100% !important;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .parallax-container .section {
+      position: absolute !important;
+      top: 40% !important;
+    }
+    #index-banner .section {
+      top: 10% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #index-banner .section {
+      top: 0 !important;
+    }
+  }
+  .icon-block {
+    padding: 0 15px !important;
+  }
+  
+  .icon-block .material-icons {
+    font-size: inherit !important;
+  }
+  
+  footer.page-footer {
+    margin: 0 !important;
+  }
+  .mleft{
+    margin-left: -10% !important;
+  }
+  .mright{
+    margin-left: 10% !important;
+  }
+
+  .btnback{
+   background-color: #1d1d1d !important;
+  }
+.pdngtop{
+  padding-top: 100px;
+}
+
+
+
