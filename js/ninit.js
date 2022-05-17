@@ -19,8 +19,9 @@
 
 $(document).ready(function () {
     $('.slider').slider({
-      indicators: false,
-      swipeable:true
+      indicators: true,
+  
+    
     });
   });
 
