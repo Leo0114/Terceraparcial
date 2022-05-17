@@ -1,148 +1,147 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    background-color: whitesmoke !important;
-  }
-  .sidenav-overlay{
-    z-index: 10 !important;
-  }
-  nav{
-    z-index: 90 !important;
-  }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: whitesmoke !important;
+}
+.sidenav-overlay {
+  z-index: 10 !important;
+}
+nav {
+  z-index: 90 !important;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
-.vcolor{
-    background-color: #1d1d1d !important;
+main {
+  flex: 1 0 auto;
 }
-.vcolor2{
-  background-color: #212121    !important ;
+.vcolor {
+  background-color: #1d1d1d !important;
 }
-.actived{
-  background-color:  whitesmoke !important;
+.vcolor2 {
+  background-color: #212121 !important ;
+}
+.actived {
+  background-color: whitesmoke !important;
   color: #1d1d1d !important;
 }
-.trs{
-    height: 510px !important;
+.trs {
+  height: 510px !important;
 }
 
 .adc-fa:hover {
-    background-color: #1e61e6 !important;
-  }
-  
-  .adc-tw:hover {
-    background-color: #25d366 !important;
-  }
+  background-color: #1e61e6 !important;
+}
 
-  
-  .adc-in:hover {
-    background-color: #c32aa3 !important;
-  }
-  
-  .cardo{
-    border-radius: 25px !important;
- 
-  }
-  .tt{
-   width: 50% !important;
-  }
-  .gr {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
-  }
-  
-  .bttxto:hover{
-    background-color: whitesmoke !important;
-    color: #1d1d1d !important;
-    font-weight: bold !important;
-  }
-  .bttn{
-    background-color: #c56b24 !important;
-  }
-  a,p,h5,h3,span{
-    font-family: 'Roboto', sans-serif !important;
-  }
-  .parallax-container {
-    min-height: 490px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255, 255, 255, .9);
-  }
-  
+.adc-tw:hover {
+  background-color: #25d366 !important;
+}
+
+.adc-in:hover {
+  background-color: #c32aa3 !important;
+}
+
+.cardo {
+  border-radius: 25px !important;
+}
+.tt {
+  width: 50% !important;
+}
+.gr {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.bttxto:hover {
+  background-color: whitesmoke !important;
+  color: #1d1d1d !important;
+  font-weight: bold !important;
+}
+.bttn {
+  background-color: #c56b24 !important;
+}
+a,
+p,
+h5,
+h3,
+span {
+  font-family: "Roboto", sans-serif !important;
+}
+.parallax-container {
+  min-height: 490px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
-    width: 100%;
+    position: absolute;
+    top: 40%;
   }
-  
-  @media only screen and (max-width: 992px) {
-    .parallax-container .section {
-      position: absolute;
-      top: 40%;
-    }
-    #index-banner .section {
-      top: 10%;
-    }
+  #index-banner .section {
+    top: 10%;
   }
-  
-  @media only screen and (max-width: 600px) {
-    #index-banner .section {
-      top: 0 !important;
-    }
-  }
-  .icon-block {
-    padding: 0 15px !important;
-  }
-  
-  .icon-block .material-icons {
-    font-size: inherit !important;
-  }
-  
-  footer.page-footer {
-    margin: 0 !important;
-  }
-  .mleft{
-    margin-left: -10% !important;
-  }
-  .mright{
-    margin-left: 10% !important;
-  }
+}
 
-  .btnback{
-   background-color: #1d1d1d !important;
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0 !important;
   }
-.pdngtop{
+}
+.icon-block {
+  padding: 0 15px !important;
+}
+
+.icon-block .material-icons {
+  font-size: inherit !important;
+}
+
+footer.page-footer {
+  margin: 0 !important;
+}
+.mleft {
+  margin-left: -10% !important;
+}
+.mright {
+  margin-left: 10% !important;
+}
+
+.btnback {
+  background-color: #1d1d1d !important;
+}
+.pdngtop {
   padding-top: 100px;
 }
-.actccar{
+.actccar {
   color: #1d1d1d !important;
   text-decoration: solid;
 }
 
-
-.textsiz{
+.textsiz {
   font-size: large !important;
 }
-.sus{
+.sus {
   margin-top: 10px;
 }
-.sizesemb{
+.sizesemb {
   height: 850px !important;
-
 }
-.sizenav{
+.sizenav {
   height: 70px;
 }
 
-.stundetsz{
+.stundetsz {
   height: 500px !important;
-  background-color: #d1c4e9   !important;
+  background-color: #d1c4e9 !important;
 }
-.studentsz2{
+.studentsz2 {
   height: 500px !important;
-  background-color: #e1bee7  !important;
+  background-color: #e1bee7 !important;
 }
-
