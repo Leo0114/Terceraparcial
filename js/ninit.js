@@ -6,6 +6,8 @@
     $('.collapsible').collapsible();
     $('.tabs').tabs({swipeable:true});
     $('.carousel').carousel();
+    $('.modal').modal();
+
 
 
 
@@ -17,7 +19,8 @@
 
 $(document).ready(function () {
     $('.slider').slider({
-      indicators: false
+      indicators: false,
+      swipeable:true
     });
   });
 

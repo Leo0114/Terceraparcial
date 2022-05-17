@@ -136,3 +136,12 @@ body {
 .sizenav{
   height: 70px;
 }
+
+.stundetsz{
+  height: 500px !important;
+  background-color: #d1c4e9   !important;
+}
+.studentsz2{
+  height: 500px !important;
+  background-color: #e1bee7  !important;
+}
