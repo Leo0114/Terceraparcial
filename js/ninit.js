@@ -3,6 +3,10 @@
     $('.parallax').parallax();
     $('.sidenav').sidenav();
     $('.materialboxed').materialbox();
+    $('.collapsible').collapsible();
+    $('.tabs').tabs({swipeable:true});
+
+
 
   });
 })(jQuery); 

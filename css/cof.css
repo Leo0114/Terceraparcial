@@ -117,6 +117,19 @@ body {
 .pdngtop{
   padding-top: 100px;
 }
+.actccar{
+  color: #1d1d1d !important;
+  text-decoration: solid;
+}
 
 
+.textsiz{
+  font-size: large !important;
+}
+.sus{
+  margin-top: 10px;
+}
+.sizesemb{
+  height: 850px !important;
 
+}
