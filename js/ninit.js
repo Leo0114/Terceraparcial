@@ -5,6 +5,8 @@
     $('.materialboxed').materialbox();
     $('.collapsible').collapsible();
     $('.tabs').tabs({swipeable:true});
+    $('.carousel').carousel();
+
 
 
 
