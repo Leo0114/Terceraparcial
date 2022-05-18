@@ -165,3 +165,14 @@ footer.page-footer {
   width: 100% !important;
   height: 350px !important;
 }
+
+.slider-adjustment{
+  position: fixed;
+   top: 64px;  
+   left: 0;
+   bottom: 0;
+   right: 0;
+   overflow: auto;
+ background-color:cyan ;
+ 
+ }
