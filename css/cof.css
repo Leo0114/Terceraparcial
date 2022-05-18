@@ -160,3 +160,7 @@ footer.page-footer {
 .qquinto{
   background-color: #ef5350    !important;
 }
+.fullwd{
+  width: 100% !important;
+  height: 350px !important;
+}
