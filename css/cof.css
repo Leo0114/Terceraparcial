@@ -165,6 +165,9 @@ footer.page-footer {
   width: 100% !important;
   height: 350px !important;
 }
+.navwid{
+  width: 100% !important;
+}
 
 .slider-adjustment{
   position: fixed;
