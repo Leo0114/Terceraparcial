@@ -182,3 +182,13 @@ footer.page-footer {
  .biocard{
    background-color: whitesmoke !important;
  }
+
+/* 
+ Divider */
+ .wrapper {
+  background-color: black;
+  height: 1px;
+  margin: 32px 0 0;
+  text-align: center;
+}
+
